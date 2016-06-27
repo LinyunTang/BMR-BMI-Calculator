@@ -1,0 +1,2 @@
+App Icons on iPad and iPhone
+https://developer.apple.com/library/ios/qa/qa1686/_index.html
