@@ -25,16 +25,20 @@ int main(int argc, char **argv){
     FILE *fh = fopen(argv[1], "r");
     assert(fh);
 
-    NSMutableArray* list = [[NSMutableArray alloc] init];
+    NSMutableArray* list = [[NSMutableArray alloc] init]; //Mutable: allows the user to change the array later
     while( fgets(buffer, 256, fh) != NULL){
-      chomp(buffer);
-      [list addObject: [[Anagram alloc] initWithWord:[NSString stringWithCString: buffer encoding: NSASCIIStringEncoding]]];
+      chomp(buffer); //get rid of the new line character
+   [list addObject: [[Anagram alloc] initWithWord:[NSString stringWithCString: buffer encoding: NSASCIIStringEncoding]]];
     }
 
+    //words will be the sorted list. compare: is the name of the method, link
+    //back to the compare method we create, Selector is the method name
     NSArray* words = [list sortedArrayUsingSelector: @selector(compare:)];
 
     int i = 0;
     int j = 1;
+    
+    //words count = words.length in java
     while(i < [words count] - 1 && j < [words count]){
       if( [[words objectAtIndex: i] compare: [words objectAtIndex: j]] == NSOrderedSame){
         j++;

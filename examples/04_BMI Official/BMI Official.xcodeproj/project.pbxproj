@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		136F960D1D24573200C1713D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 136F960C1D24573200C1713D /* main.m */; };
+		136F96101D24573200C1713D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 136F960F1D24573200C1713D /* AppDelegate.m */; };
+		136F96131D24573200C1713D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 136F96121D24573200C1713D /* ViewController.m */; };
+		136F96161D24573200C1713D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136F96141D24573200C1713D /* Main.storyboard */; };
+		136F96181D24573300C1713D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136F96171D24573300C1713D /* Assets.xcassets */; };
+		136F961B1D24573300C1713D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136F96191D24573300C1713D /* LaunchScreen.storyboard */; };
+		136F96261D24573300C1713D /* BMI_OfficialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 136F96251D24573300C1713D /* BMI_OfficialTests.m */; };
+		136F96311D24573300C1713D /* BMI_OfficialUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 136F96301D24573300C1713D /* BMI_OfficialUITests.m */; };
+		136F96411D24619600C1713D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 136F963F1D245B3A00C1713D /* Person.m */; };
+		136F96901D259FDF00C1713D /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 136F968F1D259FDF00C1713D /* normal.png */; };
+		136F96921D26C31300C1713D /* looseWeight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 136F96911D26C31300C1713D /* looseWeight.jpg */; };
+		136F96941D26C31800C1713D /* gainWeight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 136F96931D26C31700C1713D /* gainWeight.jpg */; };
+		136F96981D26C42700C1713D /* fitMan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 136F96971D26C42700C1713D /* fitMan.jpg */; };
+		136F969C1D26C65300C1713D /* fitWoman.png in Resources */ = {isa = PBXBuildFile; fileRef = 136F969B1D26C65300C1713D /* fitWoman.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		136F96221D24573300C1713D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 136F96001D24573200C1713D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 136F96071D24573200C1713D;
+			remoteInfo = "BMI Official";
+		};
+		136F962D1D24573300C1713D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 136F96001D24573200C1713D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 136F96071D24573200C1713D;
+			remoteInfo = "BMI Official";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		136F96081D24573200C1713D /* BMI Official.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Official.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		136F960C1D24573200C1713D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		136F960E1D24573200C1713D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		136F960F1D24573200C1713D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		136F96111D24573200C1713D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		136F96121D24573200C1713D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		136F96151D24573200C1713D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		136F96171D24573300C1713D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		136F961A1D24573300C1713D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		136F961C1D24573300C1713D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		136F96211D24573300C1713D /* BMI OfficialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BMI OfficialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		136F96251D24573300C1713D /* BMI_OfficialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMI_OfficialTests.m; sourceTree = "<group>"; };
+		136F96271D24573300C1713D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		136F962C1D24573300C1713D /* BMI OfficialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BMI OfficialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		136F96301D24573300C1713D /* BMI_OfficialUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMI_OfficialUITests.m; sourceTree = "<group>"; };
+		136F96321D24573300C1713D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		136F963E1D245B3A00C1713D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		136F963F1D245B3A00C1713D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		136F968F1D259FDF00C1713D /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
+		136F96911D26C31300C1713D /* looseWeight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = looseWeight.jpg; sourceTree = "<group>"; };
+		136F96931D26C31700C1713D /* gainWeight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gainWeight.jpg; sourceTree = "<group>"; };
+		136F96971D26C42700C1713D /* fitMan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fitMan.jpg; sourceTree = "<group>"; };
+		136F969B1D26C65300C1713D /* fitWoman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fitWoman.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		136F96051D24573200C1713D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136F961E1D24573300C1713D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136F96291D24573300C1713D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		136F95FF1D24573200C1713D = {
+			isa = PBXGroup;
+			children = (
+				136F960A1D24573200C1713D /* BMI Official */,
+				136F96241D24573300C1713D /* BMI OfficialTests */,
+				136F962F1D24573300C1713D /* BMI OfficialUITests */,
+				136F96091D24573200C1713D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		136F96091D24573200C1713D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				136F96081D24573200C1713D /* BMI Official.app */,
+				136F96211D24573300C1713D /* BMI OfficialTests.xctest */,
+				136F962C1D24573300C1713D /* BMI OfficialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		136F960A1D24573200C1713D /* BMI Official */ = {
+			isa = PBXGroup;
+			children = (
+				136F960E1D24573200C1713D /* AppDelegate.h */,
+				136F960F1D24573200C1713D /* AppDelegate.m */,
+				136F96111D24573200C1713D /* ViewController.h */,
+				136F96121D24573200C1713D /* ViewController.m */,
+				136F96141D24573200C1713D /* Main.storyboard */,
+				136F968F1D259FDF00C1713D /* normal.png */,
+				136F96911D26C31300C1713D /* looseWeight.jpg */,
+				136F96931D26C31700C1713D /* gainWeight.jpg */,
+				136F96971D26C42700C1713D /* fitMan.jpg */,
+				136F969B1D26C65300C1713D /* fitWoman.png */,
+				136F963E1D245B3A00C1713D /* Person.h */,
+				136F963F1D245B3A00C1713D /* Person.m */,
+				136F96171D24573300C1713D /* Assets.xcassets */,
+				136F96191D24573300C1713D /* LaunchScreen.storyboard */,
+				136F961C1D24573300C1713D /* Info.plist */,
+				136F960B1D24573200C1713D /* Supporting Files */,
+			);
+			path = "BMI Official";
+			sourceTree = "<group>";
+		};
+		136F960B1D24573200C1713D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				136F960C1D24573200C1713D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		136F96241D24573300C1713D /* BMI OfficialTests */ = {
+			isa = PBXGroup;
+			children = (
+				136F96251D24573300C1713D /* BMI_OfficialTests.m */,
+				136F96271D24573300C1713D /* Info.plist */,
+			);
+			path = "BMI OfficialTests";
+			sourceTree = "<group>";
+		};
+		136F962F1D24573300C1713D /* BMI OfficialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				136F96301D24573300C1713D /* BMI_OfficialUITests.m */,
+				136F96321D24573300C1713D /* Info.plist */,
+			);
+			path = "BMI OfficialUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		136F96071D24573200C1713D /* BMI Official */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136F96351D24573300C1713D /* Build configuration list for PBXNativeTarget "BMI Official" */;
+			buildPhases = (
+				136F96041D24573200C1713D /* Sources */,
+				136F96051D24573200C1713D /* Frameworks */,
+				136F96061D24573200C1713D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BMI Official";
+			productName = "BMI Official";
+			productReference = 136F96081D24573200C1713D /* BMI Official.app */;
+			productType = "com.apple.product-type.application";
+		};
+		136F96201D24573300C1713D /* BMI OfficialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136F96381D24573300C1713D /* Build configuration list for PBXNativeTarget "BMI OfficialTests" */;
+			buildPhases = (
+				136F961D1D24573300C1713D /* Sources */,
+				136F961E1D24573300C1713D /* Frameworks */,
+				136F961F1D24573300C1713D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				136F96231D24573300C1713D /* PBXTargetDependency */,
+			);
+			name = "BMI OfficialTests";
+			productName = "BMI OfficialTests";
+			productReference = 136F96211D24573300C1713D /* BMI OfficialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		136F962B1D24573300C1713D /* BMI OfficialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136F963B1D24573300C1713D /* Build configuration list for PBXNativeTarget "BMI OfficialUITests" */;
+			buildPhases = (
+				136F96281D24573300C1713D /* Sources */,
+				136F96291D24573300C1713D /* Frameworks */,
+				136F962A1D24573300C1713D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				136F962E1D24573300C1713D /* PBXTargetDependency */,
+			);
+			name = "BMI OfficialUITests";
+			productName = "BMI OfficialUITests";
+			productReference = 136F962C1D24573300C1713D /* BMI OfficialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		136F96001D24573200C1713D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Annabelle Tang";
+				TargetAttributes = {
+					136F96071D24573200C1713D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					136F96201D24573300C1713D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 136F96071D24573200C1713D;
+					};
+					136F962B1D24573300C1713D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 136F96071D24573200C1713D;
+					};
+				};
+			};
+			buildConfigurationList = 136F96031D24573200C1713D /* Build configuration list for PBXProject "BMI Official" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 136F95FF1D24573200C1713D;
+			productRefGroup = 136F96091D24573200C1713D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				136F96071D24573200C1713D /* BMI Official */,
+				136F96201D24573300C1713D /* BMI OfficialTests */,
+				136F962B1D24573300C1713D /* BMI OfficialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		136F96061D24573200C1713D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136F96981D26C42700C1713D /* fitMan.jpg in Resources */,
+				136F96921D26C31300C1713D /* looseWeight.jpg in Resources */,
+				136F96901D259FDF00C1713D /* normal.png in Resources */,
+				136F96941D26C31800C1713D /* gainWeight.jpg in Resources */,
+				136F961B1D24573300C1713D /* LaunchScreen.storyboard in Resources */,
+				136F96181D24573300C1713D /* Assets.xcassets in Resources */,
+				136F969C1D26C65300C1713D /* fitWoman.png in Resources */,
+				136F96161D24573200C1713D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136F961F1D24573300C1713D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136F962A1D24573300C1713D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		136F96041D24573200C1713D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136F96411D24619600C1713D /* Person.m in Sources */,
+				136F96131D24573200C1713D /* ViewController.m in Sources */,
+				136F96101D24573200C1713D /* AppDelegate.m in Sources */,
+				136F960D1D24573200C1713D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136F961D1D24573300C1713D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136F96261D24573300C1713D /* BMI_OfficialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136F96281D24573300C1713D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136F96311D24573300C1713D /* BMI_OfficialUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		136F96231D24573300C1713D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 136F96071D24573200C1713D /* BMI Official */;
+			targetProxy = 136F96221D24573300C1713D /* PBXContainerItemProxy */;
+		};
+		136F962E1D24573300C1713D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 136F96071D24573200C1713D /* BMI Official */;
+			targetProxy = 136F962D1D24573300C1713D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		136F96141D24573200C1713D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				136F96151D24573200C1713D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		136F96191D24573300C1713D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				136F961A1D24573300C1713D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		136F96331D24573300C1713D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		136F96341D24573300C1713D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		136F96361D24573300C1713D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BMI Official/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EmmaWillard.BMI-Official";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		136F96371D24573300C1713D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BMI Official/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EmmaWillard.BMI-Official";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		136F96391D24573300C1713D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BMI OfficialTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EmmaWillard.BMI-OfficialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMI Official.app/BMI Official";
+			};
+			name = Debug;
+		};
+		136F963A1D24573300C1713D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BMI OfficialTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EmmaWillard.BMI-OfficialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BMI Official.app/BMI Official";
+			};
+			name = Release;
+		};
+		136F963C1D24573300C1713D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BMI OfficialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EmmaWillard.BMI-OfficialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BMI Official";
+			};
+			name = Debug;
+		};
+		136F963D1D24573300C1713D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BMI OfficialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EmmaWillard.BMI-OfficialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BMI Official";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		136F96031D24573200C1713D /* Build configuration list for PBXProject "BMI Official" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136F96331D24573300C1713D /* Debug */,
+				136F96341D24573300C1713D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		136F96351D24573300C1713D /* Build configuration list for PBXNativeTarget "BMI Official" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136F96361D24573300C1713D /* Debug */,
+				136F96371D24573300C1713D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		136F96381D24573300C1713D /* Build configuration list for PBXNativeTarget "BMI OfficialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136F96391D24573300C1713D /* Debug */,
+				136F963A1D24573300C1713D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		136F963B1D24573300C1713D /* Build configuration list for PBXNativeTarget "BMI OfficialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136F963C1D24573300C1713D /* Debug */,
+				136F963D1D24573300C1713D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 136F96001D24573200C1713D /* Project object */;
+}
